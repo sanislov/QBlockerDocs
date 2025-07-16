@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "source"
+		}
+	],
+	"settings": {
+		"esbonio.sphinx.buildDir": "/F:/ToolsDev/QBlockerDocs_git/docs/source/_build"
+	}
+}
