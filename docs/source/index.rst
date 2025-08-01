@@ -1,16 +1,23 @@
 Introduction
 ############
 
-| I started to work on QBlocker five years ago when I missed the quick object creation of 3ds Max. As a hobby project, it was free to download for many years.
+| I started working on QBlocker back in 2019, when I missed the quick object creation workflow of 3ds Max.
+| It began as a hobby project and was freely available for many years.
 
-| Now I decided to revive the development and release a new version as a paid addon.
-| But to be fair with my users I want to keep the original one as a free addon and support it to stay compatible with the future releases of Blender.
+| Now, I've decided to revive development and release a new, improved version as a paid addon.
+| To stay fair to existing users, the original version will remain free and continue receiving updates to maintain compatibility with future Blender releases.
 
 
 What is QBlocker
 ################
 
-QBlocker is an object creation addon for Blender to create parametric objects with fast placement similar to 3ds Max. The tool includes some basic object types, custom snapping and a working plane for more precision.
+| QBlocker is an object creation addon for Blender that enables fast, parametric object placement — inspired by the workflow of 3ds Max. It features:
+
+* Basic parametric objects
+* Custom snapping
+* A working plane system for precision placement
+
+| Whether you're blocking out environments or quickly prototyping shapes, QBlocker streamlines the modeling process with speed and control.
 
 Download
 ########
@@ -19,7 +26,7 @@ Download
 | https://sanislovart.gumroad.com/l/uubjq
 | https://blendermarket.com/products/qblocker
 
-| QBlocker free v0.1.61:
+| QBlocker free v0.1.7:
 | https://sanislovart.gumroad.com/l/gOEV
 
 
@@ -27,7 +34,7 @@ Contact
 #######
 
 | If you need help or find a bug:
-| sanislov@gmail.com
+| balazs.szeleczki87@gmail.com
 
 | Follow me on Twitter:
 | https://twitter.com/SzeleczkiBalazs
@@ -43,7 +50,7 @@ Install
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Documentation
 
    qblocker

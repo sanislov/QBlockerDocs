@@ -1,27 +1,25 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QBlocker v0.21 &mdash; QBlocker 0.2.1 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+  <title>Qblocker 0.2.2 &mdash; QBlocker 0.2.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=bb2faaec" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=7f2f09dd"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
-        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d27f7911"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="QBlocker free v0.1.61" href="qblocker_free.html" />
+    <link rel="next" title="Changelog" href="qblocker_changelog.html" />
     <link rel="prev" title="Introduction" href="index.html" /> 
 </head>
 
@@ -36,9 +34,6 @@
           <a href="index.html" class="icon icon-home">
             QBlocker
           </a>
-              <div class="version">
-                0.2
-              </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
@@ -49,7 +44,8 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Documentation</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">QBlocker v0.21</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Qblocker 0.2.2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qblocker_changelog.html">Changelog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#preferences">Preferences</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#general-settings">General settings</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#raycast-settings">RayCast settings</a></li>
@@ -90,50 +86,11 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#convert-to-qobject">Convert to QObject</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#parametric-objects">Parametric Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#slice-parameter">Slice parameter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#set-qobject-origin">Set QObject origin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#changelog">Changelog</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#v0-2-1">v0.2.1</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#new-features">New features</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#improvements">Improvements</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#changes">Changes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#fixes">Fixes</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-2">v0.2</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id1">New features</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id2">Improvements</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id3">Changes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-54">v0.1.54</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id5">Fixes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id6">Improvements</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-53">v0.1.53</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id7">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-51">v0.1.51</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id8">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-5">v0.1.5</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id9">New features</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id10">Improvements</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id11">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-4">v0.1.4</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-3">v0.1.3</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-2">v0.1.2</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#v0-1-1">v0.1.1</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="qblocker_free.html">QBlocker free v0.1.61</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qblocker_free.html">QBlocker free v0.1.7</a></li>
 </ul>
 
         </div>
@@ -150,7 +107,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">QBlocker v0.21</li>
+      <li class="breadcrumb-item active">Qblocker 0.2.2</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -159,64 +116,74 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="qblocker-v0-21">
-<h1>QBlocker v0.21<a class="headerlink" href="#qblocker-v0-21" title="Link to this heading"></a></h1>
+  <section id="qblocker-0-2-2">
+<h1>Qblocker 0.2.2<a class="headerlink" href="#qblocker-0-2-2" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Changelog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qblocker_changelog.html">Changelog</a></li>
+</ul>
+</div>
 <section id="preferences">
 <h2>Preferences<a class="headerlink" href="#preferences" title="Link to this heading"></a></h2>
 <section id="general-settings">
 <h3>General settings<a class="headerlink" href="#general-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Active mouse button: Select your preferred mouse button.</p></li>
-<li><p>Show hep text: Turn off and on the help section.</p></li>
-<li><p>Show parameters at cursor: Turn off and on the tool settings.</p></li>
-<li><p>Show orientation axis: Hide axis from view when moving mouse.</p></li>
-<li><p>UI scale: Relative scale of the UI elements in the addon.</p></li>
-<li><p>Help offset: Change the gap between the help text and the edge of the viewport.</p></li>
-<li><p>Colors: All tool text-related colors.</p></li>
+<li><p><strong>Active mouse button:</strong> Select your preferred mouse button.</p></li>
+<li><p><strong>Show hep text:</strong> Turn off and on the help section.</p></li>
+<li><p><strong>Show parameters at cursor:</strong> Turn off and on the tool settings.</p></li>
+<li><p><strong>Show orientation axis:</strong> Hide axis from view when moving mouse.</p></li>
+<li><p><strong>UI scale:</strong> Relative scale of the UI elements in the addon.</p></li>
+<li><p><strong>Help offset:</strong> Change the gap between the help text and the edge of the viewport.</p></li>
+<li><p><strong>Colors:</strong> All tool text-related colors.</p></li>
 </ul>
 </section>
 <section id="raycast-settings">
 <h3>RayCast settings<a class="headerlink" href="#raycast-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Hit settings: Default value for hit filter.</p></li>
-<li><p>Ignore Wire and Bounds objects: Exclude object from the raycast if the viewport display is “Wire” or “Bounds”.</p></li>
+<li><p><strong>Hit settings:</strong> Default value for hit filter.</p></li>
+<li><p><strong>Ignore Wire and Bounds objects:</strong> Exclude object from the raycast if the viewport display is “Wire” or “Bounds”.</p></li>
 </ul>
 </section>
 <section id="working-plane-settings">
 <h3>Working Plane settings<a class="headerlink" href="#working-plane-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Grid cell count: The number of grid cells drawn on view.</p></li>
-<li><p>Grid lines color: The color of the working plane grid.</p></li>
-<li><p>Align 3D cursor: Align the 3d cursor together with the Working Plane.</p></li>
+<li><p><strong>Grid lines color:</strong> The color of the working plane grid.</p></li>
+<li><p><strong>X axis color:</strong> The color of the X axis.</p></li>
+<li><p><strong>Y axis color:</strong> The color of the y axis.</p></li>
+<li><p><strong>Fade distance:</strong> The distance between the mouse position and the edge of the faded grid.</p></li>
+<li><p><strong>Line width:</strong> The width of the grid lines.</p></li>
+<li><p><strong>Align 3D cursor:</strong> Align the 3d cursor together with the Working Plane.</p></li>
 </ul>
 </section>
 <section id="snap-settings">
 <h3>Snap Settings<a class="headerlink" href="#snap-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Turn off snapping in height stage: When start to pull the object height, the snap will be turned off.</p></li>
-<li><p>Snap Distance: Set the minimum distance to snap a point.</p></li>
-<li><p>Dot size factor: The relative size of the default snap dot size.</p></li>
-<li><p>Colors: All the snap tool-related colors.</p></li>
+<li><p><strong>Turn off snapping in height stage:</strong> When start to pull the object height, the snap will be turned off.</p></li>
+<li><p><strong>Snap Distance:</strong> Set the minimum distance to snap a point.</p></li>
+<li><p><strong>Dot size factor:</strong> The relative size of the default snap dot size.</p></li>
+<li><p><strong>Colors:</strong> All the snap tool-related colors.</p></li>
 </ul>
 </section>
 <section id="object-settings">
 <h3>Object settings<a class="headerlink" href="#object-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Default segments: Set the segment count for cylinder and sphere.</p></li>
+<li><p><strong>Default segments:</strong> Set the segment count for cylinder and sphere.</p></li>
 </ul>
 </section>
 <section id="set-origin-settings">
 <h3>Set Origin settings<a class="headerlink" href="#set-origin-settings" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Colors: Set the colors of the different elements of the tool.</p></li>
-<li><p>Base line width: Set the width of the line rectangle in the viewport.</p></li>
-<li><p>Dot size factor: The relative size of the dots.</p></li>
+<li><p><strong>Colors:</strong> Set the colors of the different elements of the tool.</p></li>
+<li><p><strong>Base line width:</strong> Set the width of the line rectangle in the viewport.</p></li>
+<li><p><strong>Dot size factor:</strong> The relative size of the dots.</p></li>
 </ul>
 </section>
 <section id="key-settings-wip">
 <h3>Key settings (WIP)<a class="headerlink" href="#key-settings-wip" title="Link to this heading"></a></h3>
 <p>This section is in work in progress.</p>
-<a class="reference internal image-reference" href="_images/img_preferences_v02.png"><img alt="_images/img_preferences_v02.png" src="_images/img_preferences_v02.png" style="width: 481px;" /></a>
+<a class="reference internal image-reference" href="_images/img_preferences_v02.png"><img alt="_images/img_preferences_v02.png" src="_images/img_preferences_v02.png" style="width: 481px;" />
+</a>
 <hr></section>
 </section>
 <section id="where-to-find">
@@ -225,7 +192,8 @@
 <li><p>View3D -&gt; Add -&gt; QBlocker</p></li>
 <li><p>Shift + A -&gt; QBlocker</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/img_addmenu_02.png"><img alt="_images/img_addmenu_02.png" src="_images/img_addmenu_02.png" style="width: 336px;" /></a>
+<a class="reference internal image-reference" href="_images/img_addmenu_02.png"><img alt="_images/img_addmenu_02.png" src="_images/img_addmenu_02.png" style="width: 336px;" />
+</a>
 <hr></section>
 <section id="working-plane">
 <h2>Working Plane<a class="headerlink" href="#working-plane" title="Link to this heading"></a></h2>
@@ -239,8 +207,10 @@
 <li><p>The plane grid size matches the Blender original grid steps.</p></li>
 <li><p>The 3d cursor will be aligned to the WP center if it is set in the addon preferences.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_workingplane1.gif"><img alt="_images/gif_workingplane1.gif" src="_images/gif_workingplane1.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_workingplane2.gif"><img alt="_images/gif_workingplane2.gif" src="_images/gif_workingplane2.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_workingplane1.gif"><img alt="_images/gif_workingplane1.gif" src="_images/gif_workingplane1.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_workingplane2.gif"><img alt="_images/gif_workingplane2.gif" src="_images/gif_workingplane2.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="resize-working-plane">
 <h3>Resize Working Plane<a class="headerlink" href="#resize-working-plane" title="Link to this heading"></a></h3>
@@ -288,7 +258,8 @@ Work with the snapping tool too.</p>
 <li><p><strong>Axis align:</strong> The object rotation is similar to the Blender original world rotation.</p></li>
 <li><p><strong>Oriented align:</strong> If the target is an object, the rotation is calculated from the target polygon’s smallest bounding box.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_alignments.gif"><img alt="_images/gif_alignments.gif" src="_images/gif_alignments.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_alignments.gif"><img alt="_images/gif_alignments.gif" src="_images/gif_alignments.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="hit-filter">
 <h3>Hit filter<a class="headerlink" href="#hit-filter" title="Link to this heading"></a></h3>
@@ -298,7 +269,8 @@ Work with the snapping tool too.</p>
 <li><p>Front Grid: Hit surfaces only if it is in front of the grid.</p></li>
 <li><p>Grid Only: The grid surface only.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_ignore_grid.gif"><img alt="_images/gif_ignore_grid.gif" src="_images/gif_ignore_grid.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_ignore_grid.gif"><img alt="_images/gif_ignore_grid.gif" src="_images/gif_ignore_grid.gif" style="width: 320px;" />
+</a>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>When the “Front Grid” filter is active, and the mesh surface lying on the grid, the tool will hit on the grid.</p>
@@ -315,22 +287,28 @@ Work with the snapping tool too.</p>
 <li><p>Uniform All ( Ctrl + Shift )</p></li>
 <li><p>Place (Alt): Only works with the Linked objects. This will place the source one with the original scale.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_basetype_1.gif"><img alt="_images/gif_basetype_1.gif" src="_images/gif_basetype_1.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_basetype_2.gif"><img alt="_images/gif_basetype_2.gif" src="_images/gif_basetype_2.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_basetype_3.gif"><img alt="_images/gif_basetype_3.gif" src="_images/gif_basetype_3.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_basetype_4.gif"><img alt="_images/gif_basetype_4.gif" src="_images/gif_basetype_4.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_basetype_1.gif"><img alt="_images/gif_basetype_1.gif" src="_images/gif_basetype_1.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_basetype_2.gif"><img alt="_images/gif_basetype_2.gif" src="_images/gif_basetype_2.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_basetype_3.gif"><img alt="_images/gif_basetype_3.gif" src="_images/gif_basetype_3.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_basetype_4.gif"><img alt="_images/gif_basetype_4.gif" src="_images/gif_basetype_4.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="increment-height">
 <h3>Increment Height<a class="headerlink" href="#increment-height" title="Link to this heading"></a></h3>
 <p>Hotkey: <strong>Hold Shift</strong></p>
 <p>You can force the height value to increment by the grid step.</p>
-<a class="reference internal image-reference" href="_images/gif_increment.gif"><img alt="_images/gif_increment.gif" src="_images/gif_increment.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_increment.gif"><img alt="_images/gif_increment.gif" src="_images/gif_increment.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="origin-position">
 <h3>Origin position<a class="headerlink" href="#origin-position" title="Link to this heading"></a></h3>
 <p>Hotkey: <strong>O</strong></p>
 <p>You can switch ground or centered origin on the fly.</p>
-<a class="reference internal image-reference" href="_images/gif_centered.gif"><img alt="_images/gif_centered.gif" src="_images/gif_centered.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_centered.gif"><img alt="_images/gif_centered.gif" src="_images/gif_centered.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="flat-mesh-variants">
 <h3>Flat Mesh variants<a class="headerlink" href="#flat-mesh-variants" title="Link to this heading"></a></h3>
@@ -340,13 +318,15 @@ Work with the snapping tool too.</p>
 <li><p>Plane &lt;-&gt; Cube</p></li>
 <li><p>Circle &lt;-&gt; Cylinder</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_flat.gif"><img alt="_images/gif_flat.gif" src="_images/gif_flat.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_flat.gif"><img alt="_images/gif_flat.gif" src="_images/gif_flat.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="smooth-geometry">
 <h3>Smooth Geometry<a class="headerlink" href="#smooth-geometry" title="Link to this heading"></a></h3>
 <p>Hotkey: <strong>D</strong></p>
 <p>You can toggle the smoothness of some objects.</p>
-<a class="reference internal image-reference" href="_images/gif_smooth.gif"><img alt="_images/gif_smooth.gif" src="_images/gif_smooth.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_smooth.gif"><img alt="_images/gif_smooth.gif" src="_images/gif_smooth.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="change-segments">
 <h3>Change Segments<a class="headerlink" href="#change-segments" title="Link to this heading"></a></h3>
@@ -360,19 +340,22 @@ Work with the snapping tool too.</p>
 <li><p>Move your mouse left and right.</p></li>
 <li><p>scroll with the mouse wheel.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_segments.gif"><img alt="_images/gif_segments.gif" src="_images/gif_segments.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_segments.gif"><img alt="_images/gif_segments.gif" src="_images/gif_segments.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="vertices-and-edges-snap">
 <h3>Vertices and Edges Snap<a class="headerlink" href="#vertices-and-edges-snap" title="Link to this heading"></a></h3>
 <p>Hotkey: <strong>Y, Z</strong></p>
 <p>Calculate the snapable point on the polygon vertices and edges, based on the snap division.</p>
-<a class="reference internal image-reference" href="_images/gif_snap_base.gif"><img alt="_images/gif_snap_base.gif" src="_images/gif_snap_base.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_snap_base.gif"><img alt="_images/gif_snap_base.gif" src="_images/gif_snap_base.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="oriented-grid-snap">
 <h3>Oriented Grid Snap<a class="headerlink" href="#oriented-grid-snap" title="Link to this heading"></a></h3>
 <p>Hotkeys: <strong>X</strong></p>
 <p>The oriented bounding box will calculate the smallest rotation so your polygon aligns perfectly with the surface.</p>
-<a class="reference internal image-reference" href="_images/gif_snap_orient.gif"><img alt="_images/gif_snap_orient.gif" src="_images/gif_snap_orient.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_snap_orient.gif"><img alt="_images/gif_snap_orient.gif" src="_images/gif_snap_orient.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="change-snap-subdivision">
 <h3>Change Snap Subdivision<a class="headerlink" href="#change-snap-subdivision" title="Link to this heading"></a></h3>
@@ -386,7 +369,8 @@ Work with the snapping tool too.</p>
 <li><p>In simple snap it will multiply the snap points on the edges.</p></li>
 <li><p>With the oriented snap it will increase the subdivision of the grid.</p></li>
 </ul>
-<a class="reference internal image-reference" href="_images/gif_snap_segments.gif"><img alt="_images/gif_snap_segments.gif" src="_images/gif_snap_segments.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_snap_segments.gif"><img alt="_images/gif_snap_segments.gif" src="_images/gif_snap_segments.gif" style="width: 320px;" />
+</a>
 <hr></section>
 </section>
 <section id="create-linked-object">
@@ -413,15 +397,19 @@ With this mode, the new object will be rotated in the direction of the second po
 <div class="line"><strong>Place( Shift ):</strong></div>
 <div class="line">Place the object on the first point and rotate toward the second one. The size will match with the original one.</div>
 </div>
-<a class="reference internal image-reference" href="_images/gif_linked_CtoP.gif"><img alt="_images/gif_linked_CtoP.gif" src="_images/gif_linked_CtoP.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_linked_PtoP.gif"><img alt="_images/gif_linked_PtoP.gif" src="_images/gif_linked_PtoP.gif" style="width: 320px;" /></a>
-<a class="reference internal image-reference" href="_images/gif_linked_TurnTo.gif"><img alt="_images/gif_linked_TurnTo.gif" src="_images/gif_linked_TurnTo.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_linked_CtoP.gif"><img alt="_images/gif_linked_CtoP.gif" src="_images/gif_linked_CtoP.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_linked_PtoP.gif"><img alt="_images/gif_linked_PtoP.gif" src="_images/gif_linked_PtoP.gif" style="width: 320px;" />
+</a>
+<a class="reference internal image-reference" href="_images/gif_linked_TurnTo.gif"><img alt="_images/gif_linked_TurnTo.gif" src="_images/gif_linked_TurnTo.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="change-axis">
 <h3>Change Axis<a class="headerlink" href="#change-axis" title="Link to this heading"></a></h3>
 <p>Hotkey: <strong>F</strong></p>
 <p>You can change between X+ and Y+ axis to be the direction of the new meshes.</p>
-<a class="reference internal image-reference" href="_images/gif_linked_axis.gif"><img alt="_images/gif_linked_axis.gif" src="_images/gif_linked_axis.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_linked_axis.gif"><img alt="_images/gif_linked_axis.gif" src="_images/gif_linked_axis.gif" style="width: 320px;" />
+</a>
 </section>
 <section id="linked-or-copy">
 <h3>Linked or Copy<a class="headerlink" href="#linked-or-copy" title="Link to this heading"></a></h3>
@@ -437,20 +425,30 @@ With this mode, the new object will be rotated in the direction of the second po
 <p><strong>Object Mode Context Menu -&gt; Convert to QObject</strong></p>
 <p>With this operator, you can turn any object into QObject.
 The tool will calculate the mesh parameters from the source mesh volume.</p>
-<a class="reference internal image-reference" href="_images/img_convertqobject_02.png"><img alt="_images/img_convertqobject_02.png" src="_images/img_convertqobject_02.png" style="width: 285px;" /></a>
+<a class="reference internal image-reference" href="_images/img_convertqobject_02.png"><img alt="_images/img_convertqobject_02.png" src="_images/img_convertqobject_02.png" style="width: 285px;" />
+</a>
 <hr></section>
 <section id="parametric-objects">
 <h2>Parametric Objects<a class="headerlink" href="#parametric-objects" title="Link to this heading"></a></h2>
 <p><strong>Properties Panel-&gt; Object Data-&gt; QObject Properties</strong></p>
 <p>After creating the QBlocker object, you can change the parameters and recalculate the mesh.</p>
-<a class="reference internal image-reference" href="_images/img_parametric.png"><img alt="_images/img_parametric.png" src="_images/img_parametric.png" style="width: 328px;" /></a>
+<a class="reference internal image-reference" href="_images/img_parametric.png"><img alt="_images/img_parametric.png" src="_images/img_parametric.png" style="width: 328px;" />
+</a>
 <p><strong>Object Mode Context Menu -&gt; QObject Properties</strong></p>
 <div class="admonition-v0-2 admonition">
 <p class="admonition-title">v0.2</p>
 <p>A new operator was added to the right-click options menu.</p>
 </div>
 <p>You can open a floating window to change the parameters of the QObject. Tweak the values will recreate the mesh data.</p>
-<a class="reference internal image-reference" href="_images/gif_floater_params_02.gif"><img alt="_images/gif_floater_params_02.gif" src="_images/gif_floater_params_02.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_floater_params_02.gif"><img alt="_images/gif_floater_params_02.gif" src="_images/gif_floater_params_02.gif" style="width: 320px;" />
+</a>
+<hr></section>
+<section id="slice-parameter">
+<h2>Slice parameter<a class="headerlink" href="#slice-parameter" title="Link to this heading"></a></h2>
+<p><strong>Properties Panel-&gt; Object Data-&gt; QObject Properties</strong></p>
+<p>The cylindrical object has an optional slice variant that can be set from the properties panel.</p>
+<a class="reference internal image-reference" href="_images/gif_slice.gif"><img alt="_images/gif_slice.gif" src="_images/gif_slice.gif" style="width: 320px;" />
+</a>
 <hr></section>
 <section id="set-qobject-origin">
 <h2>Set QObject origin<a class="headerlink" href="#set-qobject-origin" title="Link to this heading"></a></h2>
@@ -463,200 +461,13 @@ The tool will calculate the mesh parameters from the source mesh volume.</p>
 With this operator, you can place the origin at the corners or edge centers of the qobject.
 The tool will set the offset and move the object location to compensate for the location shifting.
 The operator calculates the targets from the bounding box for cubes, but the radius is used in cylindrical objects to maintain size and location when the segment count is changed.</p>
-<a class="reference internal image-reference" href="_images/gif_set_origin_v02.gif"><img alt="_images/gif_set_origin_v02.gif" src="_images/gif_set_origin_v02.gif" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="_images/gif_set_origin_v02.gif"><img alt="_images/gif_set_origin_v02.gif" src="_images/gif_set_origin_v02.gif" style="width: 320px;" />
+</a>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>The operator only takes into account the active object location. If the mesh data is linked, the location of related objects will change.</p>
 </div>
 <hr></section>
-<section id="changelog">
-<h2>Changelog<a class="headerlink" href="#changelog" title="Link to this heading"></a></h2>
-<section id="v0-2-1">
-<h3>v0.2.1<a class="headerlink" href="#v0-2-1" title="Link to this heading"></a></h3>
-<section id="new-features">
-<h4>New features<a class="headerlink" href="#new-features" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>New mesh generators</p></li>
-<li><p>Flat mesh variant for tube</p></li>
-<li><p>UV generated for all object types</p></li>
-<li><p>Additional subdivision options for all object types</p></li>
-<li><p>UV stretch option for cylindrical objects</p></li>
-<li><p>Quick object type switch with 1-5 keys</p></li>
-</ul>
-</section>
-<section id="improvements">
-<h4>Improvements<a class="headerlink" href="#improvements" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Qblocker converter ui fixed and updated to better mirror the object properties</p></li>
-<li><p>Numpad keys are usable from the addon to change the camera view</p></li>
-</ul>
-</section>
-<section id="changes">
-<h4>Changes<a class="headerlink" href="#changes" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Qblocker tools moved to a submenu in the object menu</p></li>
-</ul>
-</section>
-<section id="fixes">
-<h4>Fixes<a class="headerlink" href="#fixes" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>-Y orthographic view crash</p></li>
-<li><p>Changing smoothing while creating objects crash</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-2">
-<h3>v0.2<a class="headerlink" href="#v0-2" title="Link to this heading"></a></h3>
-<section id="id1">
-<h4>New features<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Capsule, Cone, Tube and Torus objects</p></li>
-<li><p>Active object instancing with new placement methods</p></li>
-<li><p>Set qobject base origin (new operator)</p></li>
-<li><p>floater window for quick qobject parameters (new operator)</p></li>
-<li><p>Customize hotkeys in addon preferences (WIP)</p></li>
-<li><p>Extra step for the object creation to handle secondary radius</p></li>
-</ul>
-</section>
-<section id="id2">
-<h4>Improvements<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Ignore objects with wireframe or bound viewport display</p></li>
-<li><p>Hide the UI block next to the mouse cursor with F2</p></li>
-<li><p>3D cursor set to the working plane center</p></li>
-<li><p>Unify UI scaling across the addon (WIP)</p></li>
-<li><p>Additional parameters in addon preferences</p></li>
-</ul>
-</section>
-<section id="id3">
-<h4>Changes<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>F1 and F2 keys change the addon preference values directly</p></li>
-<li><p>With the new origin set operator Corner Cube has become obsolete (still exists in the code, but removed from UI)</p></li>
-<li><p>The torus object is temporarily removed from the addon.</p></li>
-</ul>
-</section>
-<section id="id4">
-<h4>Fixes<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Height increment with shift key can stuck</p></li>
-<li><p>Raycast can fail and crash the addon in some cases</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-1-54">
-<h3>v0.1.54<a class="headerlink" href="#v0-1-54" title="Link to this heading"></a></h3>
-<section id="id5">
-<h4>Fixes<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Blender 4.1 compatibility fix.</p></li>
-</ul>
-</section>
-<section id="id6">
-<h4>Improvements<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>UV map channel created for objects</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-1-53">
-<h3>v0.1.53<a class="headerlink" href="#v0-1-53" title="Link to this heading"></a></h3>
-<section id="id7">
-<h4>Fixes<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Blender 4.0 compatibility fix.</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-1-51">
-<h3>v0.1.51<a class="headerlink" href="#v0-1-51" title="Link to this heading"></a></h3>
-<section id="id8">
-<h4>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Fix inverted normals issue.</p></li>
-<li><p>Blender 2.91 compatibility fix.</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-1-5">
-<h3>v0.1.5<a class="headerlink" href="#v0-1-5" title="Link to this heading"></a></h3>
-<section id="id9">
-<h4>New features<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Convert to qblock tool.</p></li>
-<li><p>Edit mode object creation.</p></li>
-<li><p>Sphere cube and Corner cube objects.</p></li>
-<li><p>Grid hit only option. <strong>E</strong></p></li>
-<li><p>Change working plane size. <strong>CTRL+W</strong></p></li>
-<li><p>Snapping turning off in height stage. (Can change in preferences.)</p></li>
-</ul>
-</section>
-<section id="id10">
-<h4>Improvements<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Change mesh and snap segments with the same key for mouse scroll and pen move.</p></li>
-<li><p>Help section improvements. Toggle with <strong>F1</strong>.</p></li>
-<li><p>Lots of code simplifications and optimization.</p></li>
-<li><p>Plane and Circle QObject merged into the Cube and Cylinder objects with the Flat parameter.</p></li>
-</ul>
-</section>
-<section id="id11">
-<h4>Fixes<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Segments slider number at the start position to avoid going offscreen.</p></li>
-<li><p>Snap subdivision generates subpoints on grid edges too.</p></li>
-<li><p>Uniform scale object creation waits for another mouse click to allow changing the segments.</p></li>
-<li><p>Setting the Cylinder and Sphere radius to 0 crashes the tool.</p></li>
-<li><p>Cylinder depth parameter now in world unit.</p></li>
-</ul>
-</section>
-</section>
-<section id="v0-1-4">
-<h3>v0.1.4<a class="headerlink" href="#v0-1-4" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Additional addon settings for colors and scales.</p></li>
-<li><p>New option to ignore mesh behind the grid with <strong>E</strong> key.</p></li>
-<li><p>Parametric objects.</p></li>
-<li><p>QBlocker panel removed from the context menu.</p></li>
-</ul>
-</section>
-<section id="v0-1-3">
-<h3>v0.1.3<a class="headerlink" href="#v0-1-3" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Default segments count in preferences.</p></li>
-<li><p>The closest snap point is now calculated by distance.</p></li>
-<li><p>Snap variations now mapped to <strong>Y(Z)</strong> and <strong>X</strong> keys.</p></li>
-<li><p>Change snap subdivision can be changed by holding the <strong>C</strong> key and using the mouse wheel.</p></li>
-<li><p>Creating object in <strong>local view</strong> now remain visible.</p></li>
-<li><p><strong>BaseTypes</strong> now can be set with the ctrl and shift keys.</p></li>
-<li><p>New <strong>Turn into Cylinder</strong> tool.</p></li>
-</ul>
-</section>
-<section id="v0-1-2">
-<h3>v0.1.2<a class="headerlink" href="#v0-1-2" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p><strong>Axis and Oriented</strong> coordinate systems.</p></li>
-<li><p><strong>Working Space</strong> feature.</p></li>
-<li><p>Axis orientation is now aligned to Blender World.</p></li>
-<li><p>Optional Hold or Toggle settings for snap in the preferences.</p></li>
-<li><p>High-resolution text row gap fixed.</p></li>
-<li><p>New object created into the active collection.</p></li>
-</ul>
-</section>
-<section id="v0-1-1">
-<h3>v0.1.1<a class="headerlink" href="#v0-1-1" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Add <strong>Plane</strong> and <strong>Circle</strong> mesh alternatives for operators.</p></li>
-<li><p><strong>“Resolution Scale”</strong> in <strong>“Preferences”</strong> now affect addon ui text size.</p></li>
-<li><p>Snap points can now be generated on objects with modifiers.</p></li>
-<li><p>Activate Snap remapped to <strong>‘CTRL’</strong> key to avoid Maya like camera control.</p></li>
-<li><p>Exiting addon while creating mesh now deletes unfinished objects.</p></li>
-<li><p>Tweak segments when holding <strong>‘S’</strong> now locks mesh height.</p></li>
-<li><p>Shader Compile Error fixed.</p></li>
-<li><p>Addon has a unique preference for select_mouse to avoid custom keymap issues.</p></li>
-</ul>
-</section>
-</section>
 </section>
 
 
@@ -664,7 +475,7 @@ The operator calculates the targets from the bounding box for cubes, but the rad
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="qblocker_free.html" class="btn btn-neutral float-right" title="QBlocker free v0.1.61" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="qblocker_changelog.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

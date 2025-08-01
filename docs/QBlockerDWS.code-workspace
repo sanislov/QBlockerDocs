@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"esbonio.sphinx.buildDir": "/F:/ToolsDev/QBlockerDocs_git/docs/source/_build"
+		"esbonio.sphinx.buildDir": "/mnt/ss2/Projects/QBlocker/QBlockerDocs_git/docs/source/_build"
 	}
 }

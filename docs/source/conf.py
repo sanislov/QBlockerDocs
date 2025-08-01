@@ -63,10 +63,10 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', '.venv']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'en'
+pygments_style = 'vs'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -75,6 +75,8 @@ pygments_style = 'en'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+# html_theme = 'furo'
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
