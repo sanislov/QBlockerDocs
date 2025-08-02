@@ -7,7 +7,7 @@ New features
 ~~~~~~~~~~~~
 * Optional slice parameters for all cylindrical objects.
 * Working plane now using an endless grid.
-* Cube object got a taper parameter.
+* The cube object got a taper parameter.
 * Close caps parameter for Tube object.
 * The mesh generators now set custom sharp edges for all objects.
 
@@ -15,7 +15,7 @@ Improvements
 ~~~~~~~~~~~~
 * The addon got a major code rework to ensure stablility and improve performance.
 * Compatibility with 3.6 LTS, 4.2 LTS and later version.
-* Working plane can use the new UBO shader variant to run better on the latest versions. (and starting to support changes coming with the 5.0)
+* The working plane can use the new UBO shader variant to run better on the latest versions. (and starting to support changes coming with the 5.0)
 
 Changes
 ~~~~~~~
@@ -25,9 +25,9 @@ Changes
 
 Fixes
 ~~~~~
-* Object may not initialized completly for the raycast.
+* The object may not be entirely initialized for the raycast.
 * Fix capsule zero height bug.
-* Fix the width of the line while settings the segments count.
+* Fix the width of the line while setting the segments.
 
 v0.2.1
 ======
