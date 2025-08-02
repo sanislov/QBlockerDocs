@@ -5,29 +5,29 @@ v0.2.2
 ======
 New features
 ~~~~~~~~~~~~
-* Optional slice parameters for all cylindrical objects.
-* Working plane now using an endless grid.
-* The cube object got a taper parameter.
-* Close caps parameter for Tube object.
-* The mesh generators now set custom sharp edges for all objects.
+* An optional slice parameter for all cylindrical objects (Tube, Cone, Capsule, etc.)
+* Endless grid for the working plane display.
+* Taper parameter added to the Cube object.
+* Close caps option for the Tube object.
+* All mesh generators now set custom sharp edges automatically.
 
 Improvements
 ~~~~~~~~~~~~
-* The addon got a major code rework to ensure stablility and improve performance.
-* Compatibility with 3.6 LTS, 4.2 LTS and later version.
-* The working plane can use the new UBO shader variant to run better on the latest versions. (and starting to support changes coming with the 5.0)
+* Major internal code refactor to improve performance and ensure future compatibility.
+* Full support for Blender 3.6 LTS, 4.2 LTS, and newer versions.
+* Working plane now uses the new UBO shader variant, improving performance on recent Blender versions (and preparing for 5.0 compatibility).
 
 Changes
 ~~~~~~~
-* Working plane position won't reset when changing the size.
-* Flat variants won't need a second click to finalize the object.
-* Pyramid object is now using the cube generator with a maximum taper parameter.
+* The working plane position no longer resets when adjusting size.
+* Flat variants no longer require a second click to finalize.
+* Pyramid object now uses the cube generator with max taper for more consistency.
 
 Fixes
 ~~~~~
-* The object may not be entirely initialized for the raycast.
-* Fix capsule zero height bug.
-* Fix the width of the line while setting the segments.
+* Object initialization issues during raycast are now resolved.
+* Fixed the capsule zero-height bug.
+* Fixed line width display when adjusting segments.
 
 v0.2.1
 ======

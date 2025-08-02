@@ -137,35 +137,35 @@
 <section id="new-features">
 <h3>New features<a class="headerlink" href="#new-features" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Optional slice parameters for all cylindrical objects.</p></li>
-<li><p>Working plane now using an endless grid.</p></li>
-<li><p>The cube object got a taper parameter.</p></li>
-<li><p>Close caps parameter for Tube object.</p></li>
-<li><p>The mesh generators now set custom sharp edges for all objects.</p></li>
+<li><p>An optional slice parameter for all cylindrical objects (Tube, Cone, Capsule, etc.)</p></li>
+<li><p>Endless grid for the working plane display.</p></li>
+<li><p>Taper parameter added to the Cube object.</p></li>
+<li><p>Close caps option for the Tube object.</p></li>
+<li><p>All mesh generators now set custom sharp edges automatically.</p></li>
 </ul>
 </section>
 <section id="improvements">
 <h3>Improvements<a class="headerlink" href="#improvements" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>The addon got a major code rework to ensure stablility and improve performance.</p></li>
-<li><p>Compatibility with 3.6 LTS, 4.2 LTS and later version.</p></li>
-<li><p>The working plane can use the new UBO shader variant to run better on the latest versions. (and starting to support changes coming with the 5.0)</p></li>
+<li><p>Major internal code refactor to improve performance and ensure future compatibility.</p></li>
+<li><p>Full support for Blender 3.6 LTS, 4.2 LTS, and newer versions.</p></li>
+<li><p>Working plane now uses the new UBO shader variant, improving performance on recent Blender versions (and preparing for 5.0 compatibility).</p></li>
 </ul>
 </section>
 <section id="changes">
 <h3>Changes<a class="headerlink" href="#changes" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Working plane position won’t reset when changing the size.</p></li>
-<li><p>Flat variants won’t need a second click to finalize the object.</p></li>
-<li><p>Pyramid object is now using the cube generator with a maximum taper parameter.</p></li>
+<li><p>The working plane position no longer resets when adjusting size.</p></li>
+<li><p>Flat variants no longer require a second click to finalize.</p></li>
+<li><p>Pyramid object now uses the cube generator with max taper for more consistency.</p></li>
 </ul>
 </section>
 <section id="fixes">
 <h3>Fixes<a class="headerlink" href="#fixes" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>The object may not be entirely initialized for the raycast.</p></li>
-<li><p>Fix capsule zero height bug.</p></li>
-<li><p>Fix the width of the line while setting the segments.</p></li>
+<li><p>Object initialization issues during raycast are now resolved.</p></li>
+<li><p>Fixed the capsule zero-height bug.</p></li>
+<li><p>Fixed line width display when adjusting segments.</p></li>
 </ul>
 </section>
 </section>

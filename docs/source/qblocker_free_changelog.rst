@@ -6,19 +6,18 @@ v0.1.7
 
 Improvements
 ~~~~~~~~~~~~
-* The addon got a major code rework to ensure stablility and improve performance.
-* Compatibility with 3.6 LTS, 4.2 LTS and later version.
+* Major internal code refactor to improve performance and ensure future compatibility.
+* Full support for Blender 3.6 LTS, 4.2 LTS, and newer versions.
 
 Changes
 ~~~~~~~
-* Flat variants won't need a second click to finalize the object.
-* Working plane position won't reset when changing the size.
+* The working plane position no longer resets when adjusting size.
+* Flat variants no longer require a second click to finalize.
 
 Fixes
 ~~~~~
-* Object may not initialized completly for the raycast.
-* Fix the width of the line while settings the segments count.
-
+* Object initialization issues during raycast are now resolved.
+* Fixed line width display when adjusting segments.
 
 v0.1.61
 =======
