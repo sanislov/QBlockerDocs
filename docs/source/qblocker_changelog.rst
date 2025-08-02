@@ -7,7 +7,7 @@ New features
 ~~~~~~~~~~~~
 * Optional slice parameters for all cylindrical objects.
 * Working plane now using an endless grid.
-* Cube object got a tapper parameter.
+* Cube object got a taper parameter.
 * Close caps parameter for Tube object.
 * The mesh generators now set custom sharp edges for all objects.
 
@@ -21,7 +21,7 @@ Changes
 ~~~~~~~
 * Working plane position won't reset when changing the size.
 * Flat variants won't need a second click to finalize the object.
-* Pyramid object is now using the cube generator with a maximum tapper parameter.
+* Pyramid object is now using the cube generator with a maximum taper parameter.
 
 Fixes
 ~~~~~
